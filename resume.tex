@@ -14,7 +14,6 @@
 \usepackage{textcomp}
 %%% Override the default font directory (default: 'fonts/')
 \fontdir[fonts/]
-
 %%% Configure the section directory location
 \newcommand*{\sectiondir}{resume/}
 
@@ -42,11 +41,13 @@
 \begin{center}
 	\headerfirstnamestyle{Facundo} \headerlastnamestyle{Giacconi} \\
 	\vspace{2mm}
-	{\faEnvelope\ fgiacconi.dev@gmail.com}  |  {\faMobile\ (+34) 679122423}  |  {\faMapMarker\ Girona, Spain} 
-	{\faLinkedin\ \href{https://www.linkedin.com/in/facundo-giacconi-fernandez-a77989a3}{Facundo}}
+	{fgiacconi.dev@gmail.com}  |
+    {+34 679 12 24 23}  |
+    {Girona, Spain} |
+	{\href{https://www.linkedin.com/in/facundo-giacconi-fernandez/}{linkedin.com/in/facundo}}
 \end{center}
 
-\cvsection{Skills}
+\cvsection{Skills / Achievements}
 \begin{cventries}
 	\cventry
 	{}
@@ -56,7 +57,8 @@
 		Databases:  & {\skill{ MySQL, PostgreSQL, Oracle, SQLite, MongoDb}} \\
 		Technologies / Tools: \hspace{0.05cm} & {\skill{ Docker, Jenkins, RabbitMQ, Kafka, SonarQube, Maven, Gradle, REST, Java JPA, Hibernate, npm}}\\
         \hspace{0.1cm} & {\skill{ Yarn, Git, Gitlab, Subversion.}}\\
-		Practices:  & {\skill{ Agile, Scrum, Test-Driven Development, CI/CD, Code Reviews.}} \\
+		Practices:  & {\skill{ Agile, Scrum, Test-Driven Development, CI/CD, Code Reviews, Teamwork, Communication, Adaptability}} \\
+        \hspace{0.1cm} & {\skill{ Conflict management, Bottom Line }}\\
 		\end{tabular}}}
 	{}
 	{}
@@ -128,21 +130,35 @@
 		\end{cvitems}}
 \end{cventries}
 
+\vspace{5mm}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Projects
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{25mm}
 \cvsection{Projects}
 \begin{cventries}
+	\vspace{-3mm}
+	\cventry
+	{}
+	{Pizzapp \vspace{-5mm}}
+	{Java 17, Spring Boot 3.2.0, Angular 17, NodeJs 5, Websockets, Kafka, Zookeeper, MongoDB 4.4, Redis, Docker \vspace{-5mm}}
+	{}
+	{\begin{sectionnormaltext}
+		\item {Web application emulating a pizza ordering system, with a frontend Angular 17 and a microservice managed backend with Spring Boot, NodeJs, Kafka, Zookeeper, MongoDB, Redis, and Websockets. 
+		\newline \faLink\ \href{https://github.com/flautarian/pizzapp}{Github repository}}
+	\end{sectionnormaltext}}
+
 	\vspace{-3mm}
 	\cventry
 	{}
 	{Owncloud \vspace{-5mm}}
 	{Java 8, Spring Boot 2.4.7, AngularJs 1.5, MongoDB 4.4.2, Gitlab \vspace{-5mm}}
 	{}
-	{\begin{cvsectionnormaltext}
-		\item {Enterprise and internal web application developed as a CRM for staff to manage, control, and supervise bus groups equipped with Azimut technology and multimedia content. 
+	{\begin{sectionnormaltext}
+		\item {Enterprise and internal web application as a CRM for staff to manage, control, and supervise bus groups equipped with Azimut technology and multimedia content. 
 		\newline \faLink\ \href{https://www.azimutelectronics.com}{Company Homepage}}
-	\end{cvsectionnormaltext}}
+	\end{sectionnormaltext}}
 
 	\vspace{-3mm}
 	\cventry
@@ -150,10 +166,10 @@
 	{Allianz Simulation Tool \vspace{-5mm}}
 	{Java 8, Spring Boot 2.4, Apache Kafka, Angular 6, Subversion \vspace{-5mm}}
 	{}
-	{\begin{cvsectionnormaltext}
+	{\begin{sectionnormaltext}
 		\item{Web application developed as an assistant tool for creating and provisionally calculating policies for the company Allianz.
       \newline \faLink\ \href{https://www.allianzdirect.es/seguro-de-coche/calcular-precio/}{Policy Simulator}}
-	\end{cvsectionnormaltext}}
+	\end{sectionnormaltext}}
 	
 	\vspace{-3mm}
 	\cventry
@@ -161,30 +177,30 @@
 	{Public Procurement Services Platform \vspace{-5mm}}
 	{Java 8, Spring Boot 2, Elasticsearch, Angular 6, Github, PostgreSQL \vspace{-5mm}}
 	{}
-	{\begin{cvsectionnormaltext}
-		\item{Developer from the ground up of the new Angular 6 platform while the current platform was being developed.
+	{\begin{sectionnormaltext}
+		\item{Entered as a developer and helped the team to create and migrate the frontend to the new Angular 6 platform while the current one was being improved.
 		\newline \faLink\ \href{https://contractaciopublica.cat/ca/inici}{Public Procurement Services Platform}}
-	\end{cvsectionnormaltext}}
+	\end{sectionnormaltext}}
  
     \cventry
 	{}
 	{Python-based multipurpose API for Microsoft Azure. \vspace{-5mm}}
 	{Python 3, Azure functions, Mongodb 6, Flask, Github \vspace{-5mm}}
 	{}
-	{\begin{cvsectionnormaltext}
+	{\begin{sectionnormaltext}
 		\item{Multi purpose application created to have an online and private backend API for personal applications thanks to Azure Functions, with a stack based on Python, with access by Auth identification and temporary token system, to store information autonomously from different applications that need it in a Mongodb 6 database and have access to that API.
 		\newline}
-	\end{cvsectionnormaltext}}
+	\end{sectionnormaltext}}
 
     \cventry
 	{}
 	{TrelloApp \vspace{-5mm}}
 	{React 18, Typescript, Sonner, Beaufitul-DnD, Github, Vercel, reactI18Next \vspace{-5mm}}
 	{}
-	{\begin{cvsectionnormaltext}
+	{\begin{sectionnormaltext}
 		\item{Trello like application created to consolidate and refresh knowledge about React, has connectivity and a login system per token session to access user-created lists.
 		\newline \faLink\ \href{https://trello-app-giacconidev.vercel.app/user/login}{TrelloApp}}
-	\end{cvsectionnormaltext}}
+	\end{sectionnormaltext}}
  
 	\vspace{-5mm}
 \end{cventries}
@@ -192,7 +208,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Education
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{8mm}
+\vspace{10mm}
 \cvsection{Education}
 \begin{cventries}
 	\vspace{2mm}
@@ -200,94 +216,91 @@
 	{}
 	{Montilivi Institute \vspace{-5mm}}
 	{Girona, Spain \vspace{-5mm}}
-	{07/2011 – 05/2013 \vspace{-5mm}}
-	{\begin{cvsectionnormaltext} 
-		\item{Higher National Certificate (HNC) in Network System Administration and Development in 2013 at IES Montilivi}
-	\end{cvsectionnormaltext}}
+	{}
+	{\begin{sectionnormaltext} 
+		\item{Higher National Certificate (HNC) in Network System Administration and Development}
+	\end{sectionnormaltext}}
 
  \cventry
 	{}
-	{University of Girona and Open University of Catalonia \vspace{-5mm}}
+	{Open University of Catalonia \vspace{-5mm}}
 	{Girona, Spain \vspace{-5mm}}
-	{07/2016 – 03/2022 \vspace{-5mm}}
-	{\begin{cvsectionnormaltext} 
-		\item{Bachelor's degree in Computer Science divided between in-person university (UDG) and distance university (UOC)}
-	\end{cvsectionnormaltext}}
+	{}
+	{\begin{sectionnormaltext} 
+		\item{Bachelor's degree in Computer Science}
+	\end{sectionnormaltext}}
 \end{cventries}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Courses
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{4mm}
-\cvsection{Courses}
+\cvsection{Skills / Courses}
 \begin{cventries}
-	\vspace{2mm}
-
     \cventry
 	{}
-	{A hundred Python projects \vspace{-4mm}}
-	{En línea \vspace{-5mm}}
-	{10/2023 \vspace{-5mm}}
-	{\begin{cvsectionnormaltext} 
-		\item{Course with more than 70 hours of content, with the principles of the Python programming language, and with the generation of 100 projects with said language, from native applications with Tkinter to webapps and backends with Flask.
-		\newline \vspace{2mm} \faLink\ \href{https://www.udemy.com/certificate/UC-2d01021e-af92-434c-a4a3-7fc7b33976c9/}{Certificado de finalización}}
-	\end{cvsectionnormaltext}}
+	{Python course \vspace{-4mm}}
+	{Online \vspace{-5mm}}
+	{}
+	{\begin{sectionnormaltext} 
+		\item{Course with all of the Python programming language principles and the generation of basic, advanced and complex 100 projects with said language, from native applications with Tkinter to webapps and backends with Flask.
+		\newline \vspace{2mm} \faLink\ \href{https://www.udemy.com/certificate/UC-2d01021e-af92-434c-a4a3-7fc7b33976c9/}{Completion  certificate}}
+	\end{sectionnormaltext}}
     {}
  
 	\cventry
 	{}
 	{NextJs Course \vspace{-4mm}}
 	{Online \vspace{-5mm}}
-	{05/2023 \vspace{-5mm}}
-	{\begin{cvsectionnormaltext} 
-		\item{Course with over 40 hours of content covering everything needed to develop a stateless web application with React and NextJs.
+	{}
+	{\begin{sectionnormaltext} 
+		\item{Course that covers everything what is needed to develop a stateless web application with React and NextJs. 
 		\newline \vspace{2mm} \faLink\ \href{https://www.udemy.com/certificate/UC-1ede8757-aa0d-406f-813a-8eaa400532c5/}{Completion Certificate}}
-	\end{cvsectionnormaltext}}
+	\end{sectionnormaltext}}
     {}
 
 	\cventry
 	{}
 	{React Course: From Basics to Advanced Applications \vspace{-4mm}}
 	{Online \vspace{-5mm}}
-	{10/2022 \vspace{-5mm}}
-	{\begin{cvsectionnormaltext} 
-		\item{Course covering React from basics to advanced applications (Hooks, MERN) with over 50 hours of content.
+	{}
+	{\begin{sectionnormaltext} 
+		\item{Course covering React from basics to advanced web applications (Hooks, MERN).
 		\newline \vspace{2mm} \faLink\ \href{https://www.udemy.com/certificate/UC-fcb467ab-c089-419c-9b6a-afe97f894d14/}{Completion Certificate}}
-	\end{cvsectionnormaltext}}
+	\end{sectionnormaltext}}
     {}
 
 	\cventry
 	{}
 	{Spring University - Spring Framework and Spring Boot \vspace{-4mm}}
 	{Online \vspace{-5mm}}
-	{07/2022 \vspace{-5mm}}
-	{\begin{cvsectionnormaltext} 
-		\item{Spring Boot course taken to refresh knowledge about Spring Boot and its technology (+70h)
+	{}
+	{\begin{sectionnormaltext} 
+		\item{Spring Boot course taken to refresh knowledge about Spring Boot and its technology, in short therms, A huge amount of Springboot data, examples, good practice projects and tips to refresh knowledge
 		\newline \vspace{2mm} \faLink\ \href{https://www.udemy.com/certificate/UC-ee0ce349-6915-479b-b038-5253aba9d0d8/}{Completion Certificate}}
-	\end{cvsectionnormaltext}}
+	\end{sectionnormaltext}}
     {}
 
 	\cventry
 	{}
-	{Complete MongoDB Development Guide 2022 \vspace{-4mm}}
+	{Complete MongoDB Development Course \vspace{-4mm}}
 	{Online \vspace{-5mm}}
-	{04/2022 \vspace{-5mm}}
-	{\begin{cvsectionnormaltext} 
-		\item{Comprehensive course with basic knowledge about Js, Jquery, Angular 9, and NodeJs with various examples and best practices.
+	{}
+	{\begin{sectionnormaltext} 
+		\item{Comprehensive course with instructions about Js, Jquery, Angular 9, and NodeJs with various examples and best practices with examples and exercises.
 		\newline \vspace{2mm} \faLink\ \href{https://www.udemy.com/certificate/UC-b990e98a-9b76-44b1-8e3e-43b68213725c/}{Completion Certificate}}
-	\end{cvsectionnormaltext}}
+	\end{sectionnormaltext}}
     {}
     
 	\cventry
 	{}
 	{Java Design Patterns Refresh Course \vspace{-4mm}}
 	{Online \vspace{-5mm}}
-	{06/2021 \vspace{-5mm}}
-	{\begin{cvsectionnormaltext} 
-		\item{Refresh course on commonly used design patterns in the Java language, along with examples and practical usage scenarios.
+	{}
+	{\begin{sectionnormaltext} 
+		\item{Refresh course focused on design patterns in Java language, with examples and practical scenarios.
 		\newline \vspace{2mm} \faLink\ \href{https://www.udemy.com/certificate/UC-982e3338-ea7d-4434-bf27-af8e38b77bd5/}{Completion Certificate}}
-	\end{cvsectionnormaltext}}
+	\end{sectionnormaltext}}
     {}
 
     
@@ -295,37 +308,31 @@
 	{}
 	{Js, Jquery, Angular 9, and NodeJs Course \vspace{-4mm}}
 	{Online \vspace{-5mm}}
-	{04/2020 \vspace{-5mm}}
-	{\begin{cvsectionnormaltext} 
-		\item{Generic course with basic knowledge about Js, Jquery, Angular 9, and NodeJs with various examples and best practices.
+	{}
+	{\begin{sectionnormaltext} 
+		\item{Generic course with basic knowledge about Js, Jquery, Angular 9, and NodeJs with examples and best practices.
 		\newline \vspace{2mm} \faLink\ \href{https://www.udemy.com/certificate/UC-012febdf-7657-4e65-8708-ee4e18d5a8e1/}{Completion Certificate}}
-	\end{cvsectionnormaltext}}
+	\end{sectionnormaltext}}
     {}
 \end{cventries}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Other Information
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{2mm}
+\vspace{-5mm}
 \cvsection{Additional Information}
 \begin{cventries}
-	\vspace{2mm}
+	\vspace{-8mm}
 	\cventry
-	{Languages:}
 	{}
 	{}
 	{}
-	{\begin{cvsectionnormaltext} 
-		\item{English: B2 \newline \vspace{2mm} Spanish: Native \newline \vspace{2mm} Catalan: Native}
-	\end{cvsectionnormaltext}}
- 
-	\cventry
-	{Driving License: B}
 	{}
-	{}
-	{}
-    {}
-
+	{\begin{sectionnormaltext} 
+	   \item{English: B2 
+      \newline Spanish: Native 
+      \newline  Catalan: Native 
+      \newline  Driving License: B}
+	\end{sectionnormaltext}}
 \end{cventries}
-
 \end{document}
