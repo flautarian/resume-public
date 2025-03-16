@@ -1,338 +1,281 @@
-%!TEX TS-program = xelatex
-%!TEX encoding = UTF-8 Unicode
-% LaTeX Template from Awesome CV
-%
-% Template License:
-% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Configuration
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Theme: Awesome-CV
 \documentclass[]{awesome-cv}
 \usepackage{textcomp}
-%%% Override the default font directory (default: 'fonts/')
 \fontdir[fonts/]
-%%% Configure the section directory location
 \newcommand*{\sectiondir}{resume/}
-
-%%% Override the color
-% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
-%                 awesome-nephritis, awesome-concrete, awesome-darknight
-%% Highlight Color
-% Define your custom highlight color if you don't like the default Awesome colors
 \colorlet{awesome}{awesome-red}
-%\definecolor{awesome}{HTML}{CA63A8}
-%% Text Colors
-%\definecolor{darktext}{HTML}{414141}
-%\definecolor{text}{HTML}{414141}
-%\definecolor{graytext}{HTML}{414141}
-%\definecolor{lighttext}{HTML}{414141}
-
-%%% Override the separator for social information in the header (default: ' | ')
-%\headersocialsep[\quad\textbar\quad]
 
 \begin{document}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Profile
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{center}
-	\headerfirstnamestyle{Facundo} \headerlastnamestyle{Giacconi} \\
-	\vspace{2mm}
-	{fgiacconi.dev@gmail.com}  |
-    {+34 679 12 24 23}  |
-    {Girona, Spain} |
-	{\href{https://www.linkedin.com/in/facundo-giacconi-fernandez/}{linkedin.com/in/facundo}}
+    \headerfirstnamestyle{Facundo} \headerlastnamestyle{Giacconi} \\
+    \vspace{2mm}
+    {\faEnvelope\ fgiacconi.dev@gmail.com} | {\faMobile\ (+34) 679122423} | {\faMapMarker\ Girona, Spain}
+    {\faLinkedin\ \href{https://www.linkedin.com/in/facundo-giacconi-fernandez-a77989a3}{Facundo}}
 \end{center}
 
-\cvsection{Skills / Achievements}
-\begin{cventries}
-	\cventry
-	{}
-	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
-		Languages:  & {\skill{ Java, JavaScript, TypeScript, C\#, SQL, HTML, CSS, Ruby on Rails, Jsp}} \\
-		Frameworks:  & {\skill{ Spring, Spring Boot, AngularJs, Angular (6-13), React, Nextjs}} \\
-		Databases:  & {\skill{ MySQL, PostgreSQL, Oracle, SQLite, MongoDb}} \\
-		Technologies / Tools: \hspace{0.05cm} & {\skill{ Docker, Jenkins, RabbitMQ, Kafka, SonarQube, Maven, Gradle, REST, Java JPA, Hibernate, npm}}\\
-        \hspace{0.1cm} & {\skill{ Yarn, Git, Gitlab, Subversion.}}\\
-		Practices:  & {\skill{ Agile, Scrum, Test-Driven Development, CI/CD, Code Reviews, Teamwork, Communication, Adaptability}} \\
-        \hspace{0.1cm} & {\skill{ Conflict management, Bottom Line }}\\
-		\end{tabular}}}
-	{}
-	{}
-	{}
-\end{cventries}
-\vspace{-7mm}
+\begin{cvparagraph}
+\textendash{} Senior Full Stack Developer with over 10 years of experience in web and mobile application development. Expert in technologies such as Java, Spring Boot, Angular, and React. Skilled in Agile and Scrum methodologies, with experience in implementing CI/CD.
+\end{cvparagraph}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Experience
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Skills}
+\begin{cventries}
+    \cventry
+    {}
+    {\def\arraystretch{1.15}{\begin{tabular}{l l}
+        Languages: & {\skill{Java, JavaScript, TypeScript, C\#, SQL, HTML, CSS, Ruby on Rails, JSP}} \\
+        Frameworks: & {\skill{Spring, Spring Boot, AngularJs, Angular (6-13), React, Nextjs}} \\
+        Databases: & {\skill{MySQL, PostgreSQL, Oracle, SQLite, MongoDb}} \\
+        Technologies / Tools: & {\skill{Docker, Jenkins, RabbitMQ, Kafka, SonarQube, Maven, Gradle, REST, Java JPA, Hibernate, npm, Yarn, Git, Gitlab, Subversion}} \\
+        Practices: & {\skill{Agile, Scrum, Test-Driven Development, CI/CD, Code Reviews}} \\
+    \end{tabular}}}
+    {}
+    {}
+    {}
+\end{cventries}
+
 \cvsection{Experience}
 \begin{cventries}
-	\cventry
-	{Full Stack Developer and I+D}
-	{Azimut Electronics}
-	{Gandia, Spain}
-	{2022/04 – Present}
-	{\begin{cvitems}
-		\vspace{0.5mm}
-		\item {Working remotely from Gandia, developing and enhancing multimedia and digital entertainment programs designed to keep long-distance public transportation customers entertained.}
-		\item {Project based on AngularJs frontend and Spring Boot backend with MongoDB connectivity and REST communications.}
-        \item {Additionally, collaboration with other applications based on the NextJs framework with React and JavaScript as lead developer with NodeJs backend with sequelize, graphQl and Mysql.}
-        \item {Additionally, collaboration with creation of other Python-based support tool applications (flask, tkinter, pymongo).}
-		\end{cvitems}}
+    \cventry
+    {Full Stack Developer \& R\&D}
+    {Azimut Electronics}
+    {Gandía, Spain}
+    {2022/04 – Present}
+    {\begin{cvitems}
+        \item {Development and improvement of digital multimedia and entertainment programs for public transportation.}
+        \item {Project with AngularJs frontend and Spring Boot backend, connectivity to MongoDB, and REST communications.}
+        \item {Development of applications with NextJs, React, and NodeJs with sequelize and MySQL.}
+        \item {Collaboration on support tool applications based on Python (flask, tkinter, pymongo).}
+    \end{cvitems}}
 
-	\cventry
-	{Full Stack Developer}
-	{Sopra Steria}
-	{Madrid, Spain}
-	{2021/08 – 2022/04}
-	{\begin{cvitems}
-		\vspace{0.5mm}
-		\item {Working remotely from Austria, Full Stack Developer at an insurance company.}
-		\item {Developing and improving an insurance product management project, with Angular 6 frontend and Spring Boot backend, along with microservice communication with Apache Kafka and Zookeeper and REST communications.}
-		\end{cvitems}}
+    \cventry
+    {Full Stack Developer}
+    {Sopra Steria}
+    {Madrid, Spain}
+    {2021/08 – 2022/04}
+    {\begin{cvitems}
+        \item {Development and improvement of an insurance product management project with Angular 6 frontend and Spring Boot backend.}
+        \item {Communication between microservices with Apache Kafka and Zookeeper.}
+    \end{cvitems}}
 
-	\cventry
-	{Full Stack Developer}
-	{DXC Technology}
-	{Girona, Spain}
-	{2016/11 – 2021/08}
-	{\begin{cvitems}
-		\vspace{0.5mm}
-		\item {Development in a government public tender project based on Angular frontend and Spring Boot backend, using Elasticsearch searches and data persistence in Postgres.}
-  \item {Development in a government public project based on Jsp with HTML, Javascript, and CSS frontend, and Spring Boot backend, using Elasticsearch engine and SQL Server data persistence.}
-  \item {Developer in the transition of the frontend application from Html, Jpa, and Jquery technologies to Angular 6.}
-		\end{cvitems}}
+    \cventry
+    {Full Stack Developer}
+    {DXC Technology}
+    {Girona, Spain}
+    {2016/11 – 2021/08}
+    {\begin{cvitems}
+        \item {Development on governmental projects using Angular, Spring Boot, and Elasticsearch.}
+        \item {Facilitated the transition to Angular 6, training the team and ensuring a smooth migration.}
+    \end{cvitems}}
 
-	\cventry
-	{Full Stack Developer}
-	{Coditramuntana}
-	{Girona, Spain}
-	{2016/02 – 2016/11}
-	{\begin{cvitems}
-		\vspace{0.5mm}
-		\item {Development of various CRM and SPA projects based on Ruby on Rails with MySQL as the persistence database.}
-		\end{cvitems}}
+    \cventry
+    {Full Stack Developer}
+    {Coditramuntana}
+    {Girona, Spain}
+    {2016/02 – 2016/11}
+    {\begin{cvitems}
+        \item {Development of CRM and SPA projects based on Ruby on Rails with MySQL.}
+        \item {Development of scientific and data calculation projects in Ruby on Rails.}
+    \end{cvitems}}
 
-
-	\cventry
-	{Full Stack Developer}
-	{Terramar Tours}
-	{Lloret De Mar, Spain}
-	{2013/06 – 2016/02}
-	{\begin{cvitems}
-		\vspace{0.5mm}
-		\item {Development and maintenance/enhancement of a project designed to automatically create different travel schedules from user needs. MVC project based on Java Spring backend with SQL data persistence and JSP, CSS, and REST communications frontend.}
-  \item {Developer and maintenance/enhancement in the API relations sector of a project based on Spring and Java in the backend, and JSP and CSS in the frontend, with an SQL database and the JOOQ library.}
-		\end{cvitems}}
+    \cventry
+    {Full Stack Developer}
+    {Terramar Tours}
+    {Lloret De Mar, Spain}
+    {2013/06 – 2016/02}
+    {\begin{cvitems}
+        \item {Development and maintenance of an automatic travel schedule management system with Java Spring and SQL.}
+        \item {Development of travel scheduling search API with Spring and Java.}
+        \item {Development of relationship API with Spring, Java, and JOOQ.}
+    \end{cvitems}}
+    \vspace{10mm}
 \end{cventries}
 
-\vspace{5mm}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Projects
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{25mm}
 \cvsection{Projects}
 \begin{cventries}
-	\vspace{-3mm}
-	\cventry
-	{}
-	{Pizzapp \vspace{-5mm}}
-	{Java 17, Spring Boot 3.2.0, Angular 17, NodeJs 5, Websockets, Kafka, Zookeeper, MongoDB 4.4, Redis, Docker \vspace{-5mm}}
-	{}
-	{\begin{sectionnormaltext}
-		\item {Web application emulating a pizza ordering system, with a frontend Angular 17 and a microservice managed backend with Spring Boot, NodeJs, Kafka, Zookeeper, MongoDB, Redis, and Websockets. 
-		\newline \faLink\ \href{https://github.com/flautarian/pizzapp}{Github repository}}
-	\end{sectionnormaltext}}
-
-	\vspace{-3mm}
-	\cventry
-	{}
-	{Owncloud \vspace{-5mm}}
-	{Java 8, Spring Boot 2.4.7, AngularJs 1.5, MongoDB 4.4.2, Gitlab \vspace{-5mm}}
-	{}
-	{\begin{sectionnormaltext}
-		\item {Enterprise and internal web application as a CRM for staff to manage, control, and supervise bus groups equipped with Azimut technology and multimedia content. 
-		\newline \faLink\ \href{https://www.azimutelectronics.com}{Company Homepage}}
-	\end{sectionnormaltext}}
-
-	\vspace{-3mm}
-	\cventry
-	{}
-	{Allianz Simulation Tool \vspace{-5mm}}
-	{Java 8, Spring Boot 2.4, Apache Kafka, Angular 6, Subversion \vspace{-5mm}}
-	{}
-	{\begin{sectionnormaltext}
-		\item{Web application developed as an assistant tool for creating and provisionally calculating policies for the company Allianz.
-      \newline \faLink\ \href{https://www.allianzdirect.es/seguro-de-coche/calcular-precio/}{Policy Simulator}}
-	\end{sectionnormaltext}}
-	
-	\vspace{-3mm}
-	\cventry
-	{}
-	{Public Procurement Services Platform \vspace{-5mm}}
-	{Java 8, Spring Boot 2, Elasticsearch, Angular 6, Github, PostgreSQL \vspace{-5mm}}
-	{}
-	{\begin{sectionnormaltext}
-		\item{Entered as a developer and helped the team to create and migrate the frontend to the new Angular 6 platform while the current one was being improved.
-		\newline \faLink\ \href{https://contractaciopublica.cat/ca/inici}{Public Procurement Services Platform}}
-	\end{sectionnormaltext}}
- 
     \cventry
-	{}
-	{Python-based multipurpose API for Microsoft Azure. \vspace{-5mm}}
-	{Python 3, Azure functions, Mongodb 6, Flask, Github \vspace{-5mm}}
-	{}
-	{\begin{sectionnormaltext}
-		\item{Multi purpose application created to have an online and private backend API for personal applications thanks to Azure Functions, with a stack based on Python, with access by Auth identification and temporary token system, to store information autonomously from different applications that need it in a Mongodb 6 database and have access to that API.
-		\newline}
-	\end{sectionnormaltext}}
+    {}
+    {Pizzapp}
+    {Java 17, Spring Boot 3.2.0, Angular 17, NodeJs 5, Websockets, MongoDB, Redis, Docker}
+    {}
+    {\begin{cvitems}
+        \item {Web application for pizza orders with Angular 17 frontend and microservices backend.
+        \newline \faLink\ \href{https://github.com/flautarian/pizzapp}{Github repository}}
+    \end{cvitems}}
 
     \cventry
-	{}
-	{TrelloApp \vspace{-5mm}}
-	{React 18, Typescript, Sonner, Beaufitul-DnD, Github, Vercel, reactI18Next \vspace{-5mm}}
-	{}
-	{\begin{sectionnormaltext}
-		\item{Trello like application created to consolidate and refresh knowledge about React, has connectivity and a login system per token session to access user-created lists.
-		\newline \faLink\ \href{https://trello-app-giacconidev.vercel.app/user/login}{TrelloApp}}
-	\end{sectionnormaltext}}
- 
-	\vspace{-5mm}
+    {}
+    {Owncloud}
+    {Java 17, Spring Boot, AngularJs 1.5, MongoDB, Gitlab}
+    {}
+    {\begin{cvitems}
+        \item {Enterprise CRM for managing multimedia content in buses and long-distance transports.}
+        \item {Real-time communication system with client terminals.}
+        \item {Multimedia content management system.}
+        \item {Integration system with multimedia content DRM.
+        \newline \faLink\ \href{https://www.azimutelectronics.com}{Corporate homepage}}
+    \end{cvitems}}
+
+    \cventry
+    {}
+    {Allianz Simulation Tool}
+    {Java 11, Spring Boot, Apache Kafka, Angular 13, Subversion}
+    {}
+    {\begin{cvitems}
+        \item {Tool for creating and calculating provisional policies for Allianz.}
+        \item {Wizard-type form advancement system, with separate and isolated form phases.
+        \newline \faLink\ \href{https://www.allianzdirect.es/seguro-de-coche/calcular-precio/}{Policy simulator}}
+    \end{cvitems}}
+
+    \cventry
+    {}
+    {Public Contracting Services Platform}
+    {Java 8, Spring Boot, Elasticsearch, Angular, Github, PostgreSQL}
+    {}
+    {\begin{cvitems}
+        \item {Development of a new platform in Angular starting from Adobe Flash Player.}
+        \item {Tendering system with different contract phases.}
+        \item {Development of communication system between bidders and clients.}
+        \item {Development of digital envelope management system.}
+        \item {Development of digital signature system for awards.
+        \newline \faLink\ \href{https://contractaciopublica.cat/ca/inici}{Public contracting services platform}}
+    \end{cvitems}}
+
+    \cventry
+    {}
+    {Multi-purpose API based on Python}
+    {Python 3, Mongodb 6, Flask, Github}
+    {}
+    {\begin{cvitems}
+        \item {Private backend API for personal applications with Python, Flask, and MongoDB.}
+    \end{cvitems}}
+
+    \cventry
+    {}
+    {SocketIO Communication System based on Python}
+    {Python 3, Flask, Github}
+    {}
+    {\begin{cvitems}
+        \item {Private backend API for socket IO communication with Python, Flask, and MongoDB.}
+    \end{cvitems}}
+
+    \cventry
+    {}
+    {SocketIO Message Communication API based on Python}
+    {Python 3, Mongodb 6, Flask, Github}
+    {}
+    {\begin{cvitems}
+        \item {Private backend API for personal applications with Azure Functions and MongoDB.}
+    \end{cvitems}}
+
+    \cventry
+    {}
+    {TrelloApp}
+    {React 18, Typescript, Sonner, Beaufitul-DnD, Github, Vercel, react18Next}
+    {}
+    {\begin{cvitems}
+        \item {Trello-like application to reinforce knowledge of React.
+        \newline \faLink\ \href{https://trello-app-giacconidev.vercel.app/user/login}{TrelloApp}}
+    \end{cvitems}}
+    \vspace{25mm}
 \end{cventries}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Education
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{10mm}
 \cvsection{Education}
 \begin{cventries}
-	\vspace{2mm}
-	\cventry
-	{}
-	{Montilivi Institute \vspace{-5mm}}
-	{Girona, Spain \vspace{-5mm}}
-	{}
-	{\begin{sectionnormaltext} 
-		\item{Higher National Certificate (HNC) in Network System Administration and Development}
-	\end{sectionnormaltext}}
+    \cventry
+    {}
+    {Instituto Montilivi}
+    {Girona, Spain}
+    {}
+    {\begin{cvitems}
+        \item {Higher education in System Network Administration (HNC)}
+    \end{cvitems}}
 
- \cventry
-	{}
-	{Open University of Catalonia \vspace{-5mm}}
-	{Girona, Spain \vspace{-5mm}}
-	{}
-	{\begin{sectionnormaltext} 
-		\item{Bachelor's degree in Computer Science}
-	\end{sectionnormaltext}}
+    \cventry
+    {}
+    {Universitat Oberta de Catalunya}
+    {Girona, Spain}
+    {}
+    {\begin{cvitems}
+        \item {Bachelor's degree in Computer Engineering}
+    \end{cvitems}}
 \end{cventries}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Courses
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\cvsection{Skills / Courses}
+\cvsection{Courses}
 \begin{cventries}
     \cventry
-	{}
-	{Python course \vspace{-4mm}}
-	{Online \vspace{-5mm}}
-	{}
-	{\begin{sectionnormaltext} 
-		\item{Course with all of the Python programming language principles and the generation of basic, advanced and complex 100 projects with said language, from native applications with Tkinter to webapps and backends with Flask.
-		\newline \vspace{2mm} \faLink\ \href{https://www.udemy.com/certificate/UC-2d01021e-af92-434c-a4a3-7fc7b33976c9/}{Completion  certificate}}
-	\end{sectionnormaltext}}
     {}
- 
-	\cventry
-	{}
-	{NextJs Course \vspace{-4mm}}
-	{Online \vspace{-5mm}}
-	{}
-	{\begin{sectionnormaltext} 
-		\item{Course that covers everything what is needed to develop a stateless web application with React and NextJs. 
-		\newline \vspace{2mm} \faLink\ \href{https://www.udemy.com/certificate/UC-1ede8757-aa0d-406f-813a-8eaa400532c5/}{Completion Certificate}}
-	\end{sectionnormaltext}}
+    {A hundred Python projects}
+    {Online}
     {}
+    {\begin{cvitems}
+        \item {70-hour course on Python, from native applications to webapps with Flask.
+        \newline \faLink\ \href{https://www.udemy.com/certificate/UC-2d01021e-af92-434c-a4a3-7fc7b33976c9/}{Certificate of completion}}
+    \end{cvitems}}
 
-	\cventry
-	{}
-	{React Course: From Basics to Advanced Applications \vspace{-4mm}}
-	{Online \vspace{-5mm}}
-	{}
-	{\begin{sectionnormaltext} 
-		\item{Course covering React from basics to advanced web applications (Hooks, MERN).
-		\newline \vspace{2mm} \faLink\ \href{https://www.udemy.com/certificate/UC-fcb467ab-c089-419c-9b6a-afe97f894d14/}{Completion Certificate}}
-	\end{sectionnormaltext}}
+    \cventry
     {}
+    {NextJs Course}
+    {Online}
+    {}
+    {\begin{cvitems}
+        \item {40-hour course on stateless web development with React and NextJs.
+        \newline \faLink\ \href{https://www.udemy.com/certificate/UC-1ede8757-aa0d-406f-813a-8eaa400532c5/}{Certificate of completion}}
+    \end{cvitems}}
 
-	\cventry
-	{}
-	{Spring University - Spring Framework and Spring Boot \vspace{-4mm}}
-	{Online \vspace{-5mm}}
-	{}
-	{\begin{sectionnormaltext} 
-		\item{Spring Boot course taken to refresh knowledge about Spring Boot and its technology, in short therms, A huge amount of Springboot data, examples, good practice projects and tips to refresh knowledge
-		\newline \vspace{2mm} \faLink\ \href{https://www.udemy.com/certificate/UC-ee0ce349-6915-479b-b038-5253aba9d0d8/}{Completion Certificate}}
-	\end{sectionnormaltext}}
+    \cventry
     {}
+    {React Course: From Basics to Advanced Applications}
+    {Online}
+    {}
+    {\begin{cvitems}
+        \item {50-hour course on React, from basics to advanced applications (Hooks, MERN).
+        \newline \faLink\ \href{https://www.udemy.com/certificate/UC-fcb467ab-c089-419c-9b6a-afe97f894d14/}{Certificate of completion}}
+    \end{cvitems}}
 
-	\cventry
-	{}
-	{Complete MongoDB Development Course \vspace{-4mm}}
-	{Online \vspace{-5mm}}
-	{}
-	{\begin{sectionnormaltext} 
-		\item{Comprehensive course with instructions about Js, Jquery, Angular 9, and NodeJs with various examples and best practices with examples and exercises.
-		\newline \vspace{2mm} \faLink\ \href{https://www.udemy.com/certificate/UC-b990e98a-9b76-44b1-8e3e-43b68213725c/}{Completion Certificate}}
-	\end{sectionnormaltext}}
+    \cventry
     {}
-    
-	\cventry
-	{}
-	{Java Design Patterns Refresh Course \vspace{-4mm}}
-	{Online \vspace{-5mm}}
-	{}
-	{\begin{sectionnormaltext} 
-		\item{Refresh course focused on design patterns in Java language, with examples and practical scenarios.
-		\newline \vspace{2mm} \faLink\ \href{https://www.udemy.com/certificate/UC-982e3338-ea7d-4434-bf27-af8e38b77bd5/}{Completion Certificate}}
-	\end{sectionnormaltext}}
+    {Spring University - Spring Framework and Spring Boot}
+    {Online}
     {}
+    {\begin{cvitems}
+        \item {70-hour course on Spring Boot.
+        \newline \faLink\ \href{https://www.udemy.com/certificate/UC-ee0ce349-6915-479b-b038-5253aba9d0d8/}{Certificate of completion}}
+    \end{cvitems}}
 
-    
-	\cventry
-	{}
-	{Js, Jquery, Angular 9, and NodeJs Course \vspace{-4mm}}
-	{Online \vspace{-5mm}}
-	{}
-	{\begin{sectionnormaltext} 
-		\item{Generic course with basic knowledge about Js, Jquery, Angular 9, and NodeJs with examples and best practices.
-		\newline \vspace{2mm} \faLink\ \href{https://www.udemy.com/certificate/UC-012febdf-7657-4e65-8708-ee4e18d5a8e1/}{Completion Certificate}}
-	\end{sectionnormaltext}}
+    \cventry
     {}
+    {Complete Guide to MongoDb Development 2022}
+    {Online}
+    {}
+    {\begin{cvitems}
+        \item {Course on Js, Jquery, Angular 9, and NodeJs with examples and best practices.
+        \newline \faLink\ \href{https://www.udemy.com/certificate/UC-b990e98a-9b76-44b1-8e3e-43b68213725c/}{Certificate of completion}}
+    \end{cvitems}}
+
+    \cventry
+    {}
+    {Java Design Patterns Refresher Course}
+    {Online}
+    {}
+    {\begin{cvitems}
+        \item {Course on design patterns in Java with practical examples.
+        \newline \faLink\ \href{https://www.udemy.com/certificate/UC-982e3338-ea7d-4434-bf27-af8e38b77bd5/}{Certificate of completion}}
+    \end{cvitems}}
 \end{cventries}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Other Information
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{-5mm}
 \cvsection{Additional Information}
 \begin{cventries}
-	\vspace{-8mm}
-	\cventry
-	{}
-	{}
-	{}
-	{}
-	{\begin{sectionnormaltext} 
-	   \item{English: B2 
-      \newline Spanish: Native 
-      \newline  Catalan: Native 
-      \newline  Driving License: B}
-	\end{sectionnormaltext}}
+    \cventry
+    {}
+    {}
+    {}
+    {}
+    {\begin{cvitems}
+        \item {English: B2}
+        \item {Spanish: Native}
+        \item {Catalan: Native}
+        \item {Driver's License: B}
+    \end{cvitems}}
 \end{cventries}
+
 \end{document}
